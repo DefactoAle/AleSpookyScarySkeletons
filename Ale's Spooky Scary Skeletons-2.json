@@ -1,14 +1,24 @@
 {
 	"_meta": {
-		"sources": [
-			{
-				"json": "AleOneshot",
-				"abbreviation": "ASS",
-				"full": "Ale's Spooky Scary Skeletons",
-				"version": "1.0.0"
-			}
-		]
-	},
+  "sources": [
+    {
+      "json": "ASSS",
+      "full": "Ale's Spooky Scary Skeletons",
+      "abbreviation": "ASS",
+      "color": "92b233",
+      "authors": [
+        "DefactoAle"
+      ],
+     
+      "version": "1.0",
+      "url": "https://example.com/smith-basket-brew(1)_copy.pdf",
+      "status": "ready",
+      "edition": "classic"
+    }
+  ],
+  "dateAdded": 1735679467,
+  "dateLastModified": 1735679467
+},
 	"monster": [
 		{
 			"name": "Draugrheimr",
