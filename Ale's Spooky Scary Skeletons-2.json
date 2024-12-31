@@ -5,9 +5,18 @@
 				"json": "AleOneshot",
 				"abbreviation": "ASS",
 				"full": "Ale's Spooky Scary Skeletons",
+				"authors": [
+					"DefactoAle"
+				],
 				"version": "1.0.0"
+				"url": "https://marketplace.dndbeyond.com/beyond-digital/SRC-00151",
+				"dateReleased": "2024-12-31"
 			}
 		]
+		"dateAdded": 1735678574,
+		"dateLastModified": 1735678574,
+		
+		"edition": "classic"
 	},
 	"monster": [
 		{
