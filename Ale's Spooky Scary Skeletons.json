@@ -1,13 +1,24 @@
-{
-	"_meta": {
+{"_meta": {
 		"sources": [
 			{
 				"json": "AleOneshot",
 				"abbreviation": "ASS",
 				"full": "Ale's Spooky Scary Skeletons",
-				"version": "2.1.3"
+				"authors": [
+					"DefactoAle"
+				],
+				
+				
+				"version": "2.1.3",
+				"color": "b1b1b1",
+				"url": "https://www.dmsguild.com/product/222229/WH-Awakened-Undead-A-character-race-with-six-subraces-Skeletons-Ghosts-Revenants-Ghouls-Mummies-and-Necropolitans",
+				
 			}
-		]
+		],
+		"dateAdded": 1591318518,
+		"dateLastModified": 1729630006,
+		"_dateLastModifiedHash": "8d05579ea2",
+		"edition": "classic"
 	},
 	"monster": [
 		{
