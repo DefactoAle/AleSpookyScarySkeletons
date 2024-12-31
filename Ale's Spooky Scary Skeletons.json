@@ -1,24 +1,13 @@
-{"_meta": {
+{
+	"_meta": {
 		"sources": [
 			{
 				"json": "AleOneshot",
 				"abbreviation": "ASS",
 				"full": "Ale's Spooky Scary Skeletons",
-				"authors": [
-					"DefactoAle"
-				],
-				
-				
-				"version": "2.1.3",
-				"color": "b1b1b1",
-				"url": "https://raw.githubusercontent.com/DefactoAle/AleSpookyScarySkeletons/refs/heads/main/Ale's%20Spooky%20Scary%20Skeletons.json",
-				
+				"version": "2.1.3"
 			}
-		],
-		"dateAdded": 1591318518,
-		"dateLastModified": 1729630006,
-		"_dateLastModifiedHash": "8d05579ea2",
-		"edition": "classic"
+		]
 	},
 	"monster": [
 		{
