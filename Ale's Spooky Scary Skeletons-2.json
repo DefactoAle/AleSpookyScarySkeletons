@@ -10,19 +10,19 @@
         "DefactoAle"
       ],
      
-      "version": "1.2",
+      "version": "1.3",
       "url": "https://raw.githubusercontent.com/DefactoAle/AleSpookyScarySkeletons/refs/heads/main/Ale's%20Spooky%20Scary%20Skeletons-2.json",
       "status": "ready",
       "edition": "classic"
     }
   ],
   "dateAdded": 1735679467,
-  "dateLastModified": 1735679983
+  "dateLastModified": 1735680514
 },
 	"monster": [
 		{
 			"name": "Draugrheimr",
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 1,
 			"size": [
 				"M"
@@ -433,7 +433,7 @@
 		},
 		{
 			"name": "Doot Doot",
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 2,
 			"size": [
 				"M"
@@ -613,7 +613,7 @@
 		},
 		{
 			"name": "Death Knight",
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 47,
 			"size": [
 				"M"
@@ -878,7 +878,7 @@
 		},
 		{
 			"name": "Undead Soldier",
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 3,
 			"ac": [
 				{
@@ -1016,7 +1016,7 @@
 			"name": "Dread Commander",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 69,
 			"size": [
 				"M"
@@ -1304,7 +1304,7 @@
 		},
 		{
 			"name": "Complete Dragon Skeleton",
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 420,
 			"size": [
 				"L"
@@ -1454,7 +1454,7 @@
 			"name": "Equipped Dread Commander",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 69,
 			"size": [
 				"M"
@@ -1671,7 +1671,7 @@
 	"item": [
 		{
 			"name": "Orb of Necromancy",
-			"source": "AleOneshot",
+			"source": "ASSS",
 			"page": 3,
 			"rarity": "legendary",
 			"reqAttune": "by a spellcaster proficient in necromancy",
