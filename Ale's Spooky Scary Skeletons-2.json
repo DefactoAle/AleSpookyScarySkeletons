@@ -17,12 +17,12 @@
     }
   ],
   "dateAdded": 1735679467,
-  "dateLastModified": 1737045369
+  "dateLastModified": 1737045721
 },
 "monster": [
 		{
 			"name": "Draugrheimr",
-			"source": "AleOneshot",
+			"source": "ASS",
 			"page": 1,
 			"size": [
 				"M"
@@ -442,7 +442,7 @@
 		},
 		{
 			"name": "Doot Doot",
-			"source": "AleOneshot",
+			"source": "ASS",
 			"page": 2,
 			"size": [
 				"M"
@@ -622,7 +622,7 @@
 		},
 		{
 			"name": "Death Guard",
-			"source": "AleOneshot",
+			"source": "ASS",
 			"page": 47,
 			"size": [
 				"M"
@@ -887,7 +887,7 @@
 		},
 		{
 			"name": "Undead Legionnaire",
-			"source": "AleOneshot",
+			"source": "ASS",
 			"page": 3,
 			"ac": [
 				{
@@ -1025,7 +1025,7 @@
 			"name": "Dread Commander",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "AleOneshot",
+			"source": "ASS",
 			"page": 69,
 			"size": [
 				"M"
@@ -1313,7 +1313,7 @@
 		},
 		{
 			"name": "Complete Dragon Skeleton",
-			"source": "AleOneshot",
+			"source": "ASS",
 			"page": 420,
 			"size": [
 				"H"
@@ -1458,7 +1458,7 @@
 	"item": [
 		{
 			"name": "Orb of Necromancy",
-			"source": "AleOneshot",
+			"source": "ASS",
 			"page": 3,
 			"rarity": "legendary",
 			"reqAttune": "by a spellcaster proficient in necromancy",
