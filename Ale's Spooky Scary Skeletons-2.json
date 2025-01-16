@@ -19,10 +19,10 @@
   "dateAdded": 1735679467,
   "dateLastModified": 1735680514
 },
-	"monster": [
+"monster": [
 		{
 			"name": "Draugrheimr",
-			"source": "ASSS",
+			"source": "AleOneshot",
 			"page": 1,
 			"size": [
 				"M"
@@ -36,8 +36,9 @@
 				{
 					"ac": 21,
 					"from": [
-						"Robe of the Archmagi",
-						"Staff of Power"
+						"{@item Robe of the Archmagi}",
+						"{@item Staff of Power}",
+						"{@item ring of protection}"
 					]
 				}
 			],
@@ -56,12 +57,12 @@
 			"wis": 14,
 			"cha": 16,
 			"save": {
-				"con": "+12",
-				"int": "+14",
-				"wis": "+11",
-				"cha": "+5",
-				"str": "+2",
-				"dex": "+5"
+				"con": "+13",
+				"int": "+15",
+				"wis": "+12",
+				"cha": "+6",
+				"str": "+3",
+				"dex": "+6"
 			},
 			"skill": {
 				"arcana": "+19",
@@ -100,17 +101,17 @@
 			"languages": [
 				"Common",
 				"Draconic",
-				"plus four other languages"
+				"Abyssal plus four other languages"
 			],
 			"cr": {
-				"cr": "22",
-				"lair": "22"
+				"cr": "23",
+				"lair": "24"
 			},
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Draugrheimr is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 16} to hit with spell attacks). The lich has the following wizard spells prepared:"
+						"Draugrheimr is an 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 16} to hit with spell attacks). The lich has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -210,15 +211,21 @@
 					]
 				},
 				{
-					"name": "Turn Resistance",
-					"entries": [
-						"Draugrheimr has advantage on saving throws against any effect that turns undead."
-					]
-				},
-				{
 					"name": "Magic Resistance (Robe of the Archmagi)",
 					"entries": [
 						"Draugrheimr has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Contingency Plan",
+					"entries": [
+						"If Draugrheimr would be reduced to 0 hit points, a {@spell Timestop} spell gets casted as if part of a {@spell Contingency} Spell"
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"Draugrheimr is immune to effects that turn undead."
 					]
 				}
 			],
@@ -268,6 +275,7 @@
 				"Legendary Resistances",
 				"Magic Resistance",
 				"Rejuvenation",
+				"Turn Immunity",
 				"Turn Resistance"
 			],
 			"senseTags": [
@@ -275,7 +283,8 @@
 			],
 			"languageTags": [
 				"C",
-				"DR"
+				"DR",
+				"AB"
 			],
 			"spellcastingTags": [
 				"CW"
@@ -400,6 +409,7 @@
 				"name": "Lich",
 				"source": "MM"
 			},
+			"isNpc": true,
 			"damageTags": [
 				"C",
 				"N"
@@ -409,7 +419,6 @@
 				"C",
 				"F",
 				"I",
-				"L",
 				"N",
 				"O",
 				"T"
@@ -433,7 +442,7 @@
 		},
 		{
 			"name": "Doot Doot",
-			"source": "ASSS",
+			"source": "AleOneshot",
 			"page": 2,
 			"size": [
 				"M"
@@ -612,8 +621,8 @@
 			]
 		},
 		{
-			"name": "Death Knight",
-			"source": "ASSS",
+			"name": "Death Guard",
+			"source": "AleOneshot",
 			"page": 47,
 			"size": [
 				"M"
@@ -877,8 +886,8 @@
 			]
 		},
 		{
-			"name": "Undead Soldier",
-			"source": "ASSS",
+			"name": "Undead Legionnaire",
+			"source": "AleOneshot",
 			"page": 3,
 			"ac": [
 				{
@@ -1016,7 +1025,7 @@
 			"name": "Dread Commander",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "ASSS",
+			"source": "AleOneshot",
 			"page": 69,
 			"size": [
 				"M"
@@ -1304,10 +1313,10 @@
 		},
 		{
 			"name": "Complete Dragon Skeleton",
-			"source": "ASSS",
+			"source": "AleOneshot",
 			"page": 420,
 			"size": [
-				"L"
+				"H"
 			],
 			"type": "undead",
 			"alignment": [
@@ -1327,7 +1336,8 @@
 				"average": 126
 			},
 			"speed": {
-				"walk": 30
+				"walk": 30,
+				"fly": 60
 			},
 			"str": 20,
 			"dex": 12,
@@ -1375,7 +1385,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+						"Each creature of the dragon's choice that is within 60 feet of the dragon and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
 					]
 				}
 			],
@@ -1424,12 +1434,6 @@
 			],
 			"trait": [
 				{
-					"name": "Regeneration.",
-					"entries": [
-						"The Complete Dragon Skeleton regains 10 hit points at the start of its turn. If the Complete Dragon Skeleton takes radiant or fire damage, this trait doesn't function at the start of the Complete Dragon Skeleton's next turn. The Complete Dragon Skeleton body is destroyed only if it starts its turn with 0 hit points and doesn't regenerate."
-					]
-				},
-				{
 					"name": "Turn immunity.",
 					"entries": [
 						"The Complete Dragon Skeleton is immune to effects that turn undead."
@@ -1449,229 +1453,12 @@
 			"savingThrowForced": [
 				"wisdom"
 			]
-		},
-		{
-			"name": "Equipped Dread Commander",
-			"isNpc": true,
-			"isNamedCreature": true,
-			"source": "ASSS",
-			"page": 69,
-			"size": [
-				"M"
-			],
-			"type": "undead",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 20,
-					"from": [
-						"{@item shield|xphb}",
-						"{@item plate armor|xphb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "11d8 + 55",
-				"average": 104
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 30
-			},
-			"str": 20,
-			"dex": 11,
-			"con": 20,
-			"int": 12,
-			"wis": 16,
-			"cha": 18,
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 13,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks",
-					"cond": true
-				}
-			],
-			"immune": [
-				"necrotic",
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"languages": [
-				"Abyssal",
-				"Common"
-			],
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Dread Commander Weapons",
-					"entries": [
-						"The Dread Commander's longsword weapon attacks are magical. When he hits with any weapon, the weapon deals an extra {@damage 3d6} necrotic damage (included in the attack)."
-					]
-				},
-				{
-					"name": "Undead Nature",
-					"entries": [
-						"The Dread Commander doesn't require air, food, drink, or sleep."
-					]
-				},
-				{
-					"name": "Aura of Command",
-					"entries": [
-						"Each ally undead within 15 feet of the Dread Commander gains several bonuses:",
-						"All attack, skill, and saving throw rolls add an additional {@dice 1d4} to their total.",
-						"Each undead (not including the Dread Commander itself) deals an additional {@damage 2} necrotic damage on their attacks."
-					]
-				},
-				{
-					"name": "Turn Immunity",
-					"entries": [
-						"Dread Commander is immune to effects that turn undead."
-					]
-				},
-				{
-					"name": "Regeneration",
-					"entries": [
-						"Dread Commander regains 10 hit points at the start of its turn if it has at least 1 hit point ."
-					]
-				},
-				{
-					"name": "Four Arms",
-					"entries": [
-						"At any one time, Dread Commander can hold up to four one-handed objects, a pair of two-handed objects, or a twohanded object and two one-handed objects. Also, the weight Dread Commander can carry is doubled, and you gain a climbing speed of 30 feet."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The Dread Commander makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Flaming Pike",
-					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11({@damage 1d10 + 6}) piercing damage, plus 10 ({@damage 3d6}) necrotic damage, plus 7 ({@damage 2d6}) fire damage. The Dread Commander heals by half the amount of necrotic damage delt to the target."
-					]
-				},
-				{
-					"name": "Oversized Longbow",
-					"entries": [
-						"{@atk rw} {@hit +3} to hit, range 150/600 ft., one target. {@h}11 ({@damage 2d6+5}) Piercing damage, plus 10 ({@damage 3d6}) necrotic damage."
-					]
-				},
-				{
-					"name": "Rain of Arrows",
-					"entries": [
-						"The Dread Commander aims his bow in the air, releasing a rain of arrows that lands at a point it can see within 120 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a {@dc 16} Dexterity saving throw.  A creature takes 11 ({@damage 2d6+5}) Piercing damage, plus 10 ({@damage 3d6}) necrotic damage on a failed save, or half as much damage on a successful one.",
-						"Additionally if a creature hit is Large or larger it takes 6 ({@damage 2d6}) Piercing damage extra."
-					]
-				}
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalesFromTheShadows/bestiary/tokens/Aazael, the Dread Knight.webp"
-			},
-			"traitTags": [
-				"Magic Resistance",
-				"Regeneration",
-				"Rejuvenation",
-				"Turn Immunity"
-			],
-			"senseTags": [
-				"D"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"AB",
-				"C"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"miscTags": [
-				"MW",
-				"MLW",
-				"RW",
-				"RNG",
-				"AOE"
-			],
-			"attachedItems": [
-				"oversized longbow|wdh"
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The Dread Commander's innate spellcasting ability is Charisma (spell save {@dc 16}, +8 to hit). The knight can innately cast the following spells, requiring no material components:"
-					],
-					"daily": {
-						"1e": [
-							"{@spell blinding smite|XPHB}"
-						],
-						"2e": [
-							"{@spell command|XPHB}",
-							"{@spell searing smite|XPHB}",
-							"{@spell thunderous smite|XPHB}",
-							"{@spell wrathful smite|XPHB}"
-						]
-					},
-					"ability": "cha",
-					"type": "spellcasting"
-				}
-			],
-			"spellcastingTags": [
-				"I"
-			],
-			"reaction": [
-				{
-					"name": "Cutting Howl (3/Day)",
-					"entries": [
-						"When a creature that the Dread Commander can see within 60 feet of it makes an attack, ability check, or damage roll, it can use its reaction to roll a {@dice d6} and subtract the number rolled from the creature's roll. It can choose to use this feature after the creature makes its roll but before the GM determines whether the roll succeeds or fails. The creature is immune if it can't hear the Dread Commander or if it's immune to being {@condition Charmed|XPHB}."
-					]
-				}
-			],
-			"damageTags": [
-				"N",
-				"P"
-			],
-			"damageTagsSpell": [
-				"F",
-				"N",
-				"R",
-				"T"
-			],
-			"savingThrowForced": [
-				"dexterity"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"strength",
-				"wisdom"
-			]
 		}
 	],
 	"item": [
 		{
 			"name": "Orb of Necromancy",
-			"source": "ASSS",
+			"source": "AleOneshot",
 			"page": 3,
 			"rarity": "legendary",
 			"reqAttune": "by a spellcaster proficient in necromancy",
